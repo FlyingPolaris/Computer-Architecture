@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HW1 Experimental Report</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+</head>
+<body>
+<h1>实验 1 实验报告</h1>
+<p>余北辰 519030910245</p>
+<h2>练习 1 gcc</h2>
+<p>将V0-V3的值全部设置为3即可得到所要求的输出。</p>
+<h2>练习 2 GDB</h2>
+<p>在实验报告中回答以下问题:</p>
+<hr />
+<p><em>1. How do you pass command line arguments to a program when using gdb?</em></p>
+<p>有两种方法。第一种，在运行时直接在后面跟上命令行参数，如：</p>
+<p><code>(gdb) r argv1 argv2 argv3</code></p>
+<p>第二种，先用set args命令设置好参数的值：</p>
+<p><code>(gdb) set args argv1 argv2 argv3</code></p>
+<p>再正常运行即可。</p>
+<hr />
+<p><em>2. How do you set a breakpoint which only occurs when a set of conditions is true (e.g. when
+certain variables are a certain value)?</em></p>
+<p>在设断点时后边加上一条条件语句即可，如：</p>
+<p><code>(gdb) b 12 if a==0</code></p>
+<p>表示的是在第12行处设置一个a的值为0时触发的断点。</p>
+<hr />
+<p><em>3. How do you execute the next line of C code in the program after stopping at a breakpoint?</em></p>
+<p>使用next命令：</p>
+<p><code>(gdb) n</code></p>
+<hr />
+<p><em>4. If the next line of code is a function call, you'll execute the whole function call at once if you
+use your answer to #3. How do you tell GDB that you want to debug the code inside the
+function instead?</em></p>
+<p>使用step命令：</p>
+<p><code>(gdb) s</code></p>
+<hr />
+<p><em>5. How do you resume the program after stopping at a breakpoint?</em></p>
+<p>使用continue命令：</p>
+<p><code>(gdb) c</code></p>
+<hr />
+<p><em>6. How can you see the value of a variable (or even an expression like 1+2) in gdb?</em></p>
+<p>使用print命令：</p>
+<p><code>(gdb) p variable(or expression)</code></p>
+<p>GDB就会给出所选择的变量或表达式的值。</p>
+<hr />
+<p><em>7. How do you configure gdb so it prints the value of a variable after every step?</em></p>
+<p>使用display命令:</p>
+<p><code>(gdb) display variable</code></p>
+<p>这样单步调试时，每一次步进时都会把所选参数的值显示出来。</p>
+<hr />
+<p><em>8. How do you print a list of all variables and their values in the current function?</em></p>
+<p>使用&quot;:&quot;符号：</p>
+<p><code>(gdb) p function::variable</code></p>
+<p>GDB会给出在所选的函数中的变量的值。</p>
+<hr />
+<p><em>9. How do you exit out of gdb?</em></p>
+<p>使用quit命令：</p>
+<p><code>(gdb) q</code></p>
+<hr />
+<h2>练习 3 调试</h2>
+<p>正确的函数实现如下：</p>
+<pre><code>int ll_equal(const node* a, const node* b){
+while (a != NULL &amp;&amp; b != NULL) {
+    if (a-&gt;val != b-&gt;val)
+        return 0;
+    a = a-&gt;next;
+    b = b-&gt;next;
+}
+if(a == NULL &amp;&amp; b == NULL) return a == b;
+else return 0;
+}
+</code></pre>
+
+<h2>练习 4 Make 初步</h2>
+<p>我的wc.c具体实现如下：</p>
+<pre><code>#include &lt;stdio.h&gt;
+#include &lt;ctype.h&gt;
+#include &lt;string.h&gt;
+void wc(FILE *ofile, FILE *infile, char *inname) 
+{
+    char str[999];
+    int len;
+    int i;
+    int flag;
+    int word_num, line_num, char_num;
+    char ch;
+    word_num = line_num = char_num = 0;
+    flag = 1;
+    infile = fopen(inname,&quot;rb&quot;);
+    if(infile)
+    {
+        while(fgets(str,999,infile))
+        {
+            len = strlen(str);
+            for(i = 0;i &lt; len;++i)
+            {
+                ch = str[i];
+                if(ch == ' '||ch == '\t')
+                {
+                    char_num++;
+                    if(!flag) word_num++;
+                    flag = 1;
+                }
+                else if(ch != '\n' &amp;&amp; ch != '\r')
+                {
+                    char_num++;
+                    flag = 0;
+                }
+            }
+            if(!flag) word_num++;
+            flag = 1;
+            char_num++;
+            line_num++;
+        }
+    }
+    fclose(infile);
+    printf(&quot; %d %d %d %s\n&quot;, line_num, word_num, char_num, inname);
+}
+int main (int argc, char *argv[]) {
+    FILE* infile,* ofile;
+    infile = NULL;
+    ofile = NULL;
+    wc(infile, ofile, argv[1]);
+    return 0;
+}
+</code></pre>
+
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
