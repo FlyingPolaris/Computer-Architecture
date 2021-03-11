@@ -1,4 +1,7 @@
-# 实验 2 实验报告
+![avatar][base64str]
+[base64str]:data:image/png;base64,iVBORw0......![avatar][base64str]
+[base64str]:data:image/png;base64,iVBORw0......![avatar][base64str]
+[base64str]:data:image/png;base64,iVBORw0......# 实验 2 实验报告
 
 余北辰 519030910245
 
