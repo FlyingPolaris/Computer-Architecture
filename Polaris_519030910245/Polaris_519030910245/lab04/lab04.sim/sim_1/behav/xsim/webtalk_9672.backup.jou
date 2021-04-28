@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Apr 14 08:14:36 2021
+# Process ID: 9672
+# Current directory: E:/Polaris_519030910245/lab04/lab04.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source E:/Polaris_519030910245/lab04/lab04.sim/sim_1/behav/xsim/xsim.dir/Registers_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/Polaris_519030910245/lab04/lab04.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: E:/Polaris_519030910245/lab04/lab04.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source E:/Polaris_519030910245/lab04/lab04.sim/sim_1/behav/xsim/xsim.dir/Registers_tb_behav/webtalk/xsim_webtalk.tcl -notrace
