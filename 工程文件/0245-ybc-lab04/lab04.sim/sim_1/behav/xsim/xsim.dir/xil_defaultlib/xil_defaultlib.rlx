@@ -1,0 +1,11 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+E:/Polaris_519030910245/lab04/lab04.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+E:/Polaris_519030910245/lab04/lab04.srcs/sim_1/new/Registers_tb.v,1617755672,verilog,,,,Registers_tb,,,,,,,,
+E:/Polaris_519030910245/lab04/lab04.srcs/sim_1/new/dataMemory_tb.v,1617758502,verilog,,,,dataMemory_tb,,,,,,,,
+E:/Polaris_519030910245/lab04/lab04.srcs/sim_1/new/signext_tb.v,1617759507,verilog,,,,signext_tb,,,,,,,,
+E:/Polaris_519030910245/lab04/lab04.srcs/sources_1/new/Registers.v,1617754122,verilog,,E:/Polaris_519030910245/lab04/lab04.srcs/sim_1/new/Registers_tb.v,,Registers,,,,,,,,
+E:/Polaris_519030910245/lab04/lab04.srcs/sources_1/new/dataMemory.v,1617758262,verilog,,E:/Polaris_519030910245/lab04/lab04.srcs/sim_1/new/dataMemory_tb.v,,dataMemory,,,,,,,,
+E:/Polaris_519030910245/lab04/lab04.srcs/sources_1/new/signext.v,1617759428,verilog,,E:/Polaris_519030910245/lab04/lab04.srcs/sim_1/new/signext_tb.v,,signext,,,,,,,,

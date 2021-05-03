@@ -1,0 +1,215 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Apr 24 18:53:15 2021
+# Process ID: 54020
+# Current directory: D:/Github/Computer-Architecture/Polaris_519030910245/Polaris_519030910245/lab06
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13564 D:\Github\Computer-Architecture\Polaris_519030910245\Polaris_519030910245\lab06\lab06.xpr
+# Log file: D:/Github/Computer-Architecture/Polaris_519030910245/Polaris_519030910245/lab06/vivado.log
+# Journal file: D:/Github/Computer-Architecture/Polaris_519030910245/Polaris_519030910245/lab06\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Github/Computer-Architecture/Polaris_519030910245/Polaris_519030910245/lab06/lab06.xpr
+update_compile_order -fileset sources_1
+file mkdir D:/Github/Computer-Architecture/Polaris_519030910245/Polaris_519030910245/lab06/lab06.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Github/Computer-Architecture/Polaris_519030910245/Polaris_519030910245/lab06/lab06.srcs/sim_1/new/Top_tb.v w ]
+add_files -fileset sim_1 D:/Github/Computer-Architecture/Polaris_519030910245/Polaris_519030910245/lab06/lab06.srcs/sim_1/new/Top_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source Top_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+add_files -norecurse {D:/Github/Computer-Architecture/Polaris_519030910245/Polaris_519030910245/lab06/memfile.txt D:/Github/Computer-Architecture/Polaris_519030910245/Polaris_519030910245/lab06/instfile.txt}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+export_ip_user_files -of_objects  [get_files D:/Github/Computer-Architecture/Polaris_519030910245/Polaris_519030910245/lab06/instfile.txt] -no_script -reset -force -quiet
+remove_files  D:/Github/Computer-Architecture/Polaris_519030910245/Polaris_519030910245/lab06/instfile.txt
+remove_files  D:/Github/Computer-Architecture/Polaris_519030910245/Polaris_519030910245/lab06/instfile.txt
+export_ip_user_files -of_objects  [get_files D:/Github/Computer-Architecture/Polaris_519030910245/Polaris_519030910245/lab06/memfile.txt] -no_script -reset -force -quiet
+remove_files  D:/Github/Computer-Architecture/Polaris_519030910245/Polaris_519030910245/lab06/memfile.txt
+remove_files  D:/Github/Computer-Architecture/Polaris_519030910245/Polaris_519030910245/lab06/memfile.txt
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 100 ns
+run 100 ns
+relaunch_sim
+run 100 ns
+run 200 ns
+run 200 ns
+relaunch_sim
+run 200 ns
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 200 ns
+run 200 ns
+relaunch_sim
+run 200 ns
+relaunch_sim
+run 200 ns
+run 200 ns
+run 200 ns
+relaunch_sim
+run 200 ns
+run 200 ns
+run 200 ns
+relaunch_sim
+run 500 ns
+relaunch_sim
+run 500 ns
+relaunch_sim
+run 500 ns
+relaunch_sim
+run 500 ns
+relaunch_sim
+run 500 ns
+relaunch_sim
+run 500 ns
+run 500 ns
+relaunch_sim
+run 500 ns
+relaunch_sim
+run 500 ns
+relaunch_sim
+run 500 ns
+relaunch_sim
+run 500 ns
+relaunch_sim
+run 500 ns
+relaunch_sim
+run 500 ns
+run 500 ns
+relaunch_sim
+relaunch_sim
+run 500 ns
+run 500 ns
+save_wave_config {D:/Github/Computer-Architecture/Polaris_519030910245/Polaris_519030910245/lab06/Top_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse D:/Github/Computer-Architecture/Polaris_519030910245/Polaris_519030910245/lab06/Top_tb_behav.wcfg
+set_property xsim.view D:/Github/Computer-Architecture/Polaris_519030910245/Polaris_519030910245/lab06/Top_tb_behav.wcfg [get_filesets sim_1]
+close_sim

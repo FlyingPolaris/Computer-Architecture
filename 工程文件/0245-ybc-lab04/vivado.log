@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat May  1 20:30:45 2021
+# Process ID: 17172
+# Current directory: D:/Github/Computer-Architecture/Labs/lab04
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11500 D:\Github\Computer-Architecture\Labs\lab04\lab04.xpr
+# Log file: D:/Github/Computer-Architecture/Labs/lab04/vivado.log
+# Journal file: D:/Github/Computer-Architecture/Labs/lab04\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Github/Computer-Architecture/Labs/lab04/lab04.xpr
+INFO: [Project 1-313] Project file moved from 'E:/Polaris_519030910245/lab04' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:07 . Memory (MB): peak = 718.160 ; gain = 118.172
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat May  1 23:21:15 2021...

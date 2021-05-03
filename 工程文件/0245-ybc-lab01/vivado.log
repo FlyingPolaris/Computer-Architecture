@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun May  2 22:39:18 2021
+# Process ID: 18912
+# Current directory: D:/Github/Computer-Architecture/工程文件/lab01
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28236 D:\Github\Computer-Architecture\工程文件\lab01\lab01.xpr
+# Log file: D:/Github/Computer-Architecture/工程文件/lab01/vivado.log
+# Journal file: D:/Github/Computer-Architecture/工程文件/lab01\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Github/Computer-Architecture/工程文件/lab01/lab01.xpr
+INFO: [Project 1-313] Project file moved from 'E:/Polaris_519030910245/lab01' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2338] Canceling the changes to the IP catalog. Reverting the catalog back to its previous state.
+INFO: [IP_Flow 19-2340] The IP catalog has been returned to its previous state.
+INFO: [Common 17-344] 'open_project' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May  2 22:39:57 2021...
