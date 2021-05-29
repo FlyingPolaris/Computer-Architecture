@@ -1,5 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Polaris_519030910245/lab01/lab01.srcs/sources_1/new/flowing_light.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module flowing_light
-INFO: [VRFC 10-2458] undeclared symbol CLK_i, assumed default net type wire [E:/Polaris_519030910245/lab01/lab01.srcs/sources_1/new/flowing_light.v:13]
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Polaris_519030910245/lab01/lab01.srcs/sim_1/new/flowing_light_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module flowing_light_tb
